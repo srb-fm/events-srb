@@ -60,9 +60,8 @@ include_once "../parts/menu/menu_srb_root_1_eb_1.inc";
 </div>
 <p class="menu_head">Events - Extern</p>
 <div class="menu_body">
-<a href="custom url 1" target="_blank">Veranstaltungen Rudolstadt</a>
-<a href="http://www.saalfeld.de/www/saalfeld/topnav/veranstaltungen/" target="_blank">custom url 1</a>
-<a href="custom url 1" target="_blank">custom url 2</a>
+<a href="custom url 1" target="_blank">custom url 1</a>
+<a href="custom url 2" target="_blank">custom url 2</a>
 
 </div>
 </div>
