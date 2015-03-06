@@ -1,0 +1,69 @@
+*.md~
+*.gitignore~
+*.css~
+*.php~
+*.bfproject
+*.py[cod]
+*.sh~
+*.py~
+*.log
+_.htaccess
+*.template~
+*.inc~
+*.shtml~
+
+__init__.py
+
+# configs etc
+admin_srb_conf.php
+db_config.py
+_db_config.py
+mpd_config.py
+*conf.sh
+db.php
+
+# with paths or special configs
+
+
+# infos
+wichtig
+wichtig~
+
+# Projects
+.eric4project/
+*.e4p
+*.nja
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+#parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
