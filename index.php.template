@@ -1,0 +1,83 @@
+<?php
+/**
+* events-index
+*
+* PHP version 5
+*
+* @category Intranetsite
+* @package Admin-SRB
+* @author Olaf Lindig
+* @license http://www.gnu.org/copyleft/gpl.html GNU General Public License
+* @link http://srb.fm
+* 
+* specified paths: look at bottom
+*/
+
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+<title>Admin-SRB-Events</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="expires" content="0">
+<style type="text/css"> @import url("../parts/style/style_srb_2.css");    </style>
+<style type="text/css"> @import url("../parts/style/style_srb_jq_2.css");  </style>
+<style type="text/css">@import url(style/events.css);</style>
+<script src="../parts/jquery/jquery_1_7_1/jquery.min.js"></script>
+<script src="../parts/jquery/jquery_my_tools/jq_my_tools_2.js"></script>
+</head>
+<body>
+<div class="main">
+<?php
+header('content-type: text/html; charset=utf-8');
+include_once "../parts/site_elements/header_srb_2.inc";
+include_once "../parts/menu/menu_srb_root_1_eb_1.inc";
+?>
+<div class='column_left'>
+<div class='head_item_left'><span style="font-weight:bold">Events</span></div>
+<div class="menu_list" id="jq_slide_by_click_1">
+<p class="menu_head">Allgemein</p>
+<div class="menu_body">
+<a href="#" id="evbasic">Stammdaten</a>
+<a href="#" id="evuser">Benutzerdaten</a>
+<a href="#" id="evadmin">Admin</a>
+</div>
+<p class="menu_head">Events</p>
+<div class="menu_body">
+<a href="#" id="evevent">&Uuml;bersicht / Erfassen</a>
+</div>
+<p class="menu_head">Veranstaltungshinweise</p>
+<div class="menu_body">
+<a href="#" id="evnotes">Bearbeiten / Erstellen</a>
+</div>
+<p class="menu_head">Hilfe</p>
+<div class="menu_body">
+<a href="#" id="hlpstart">&Uuml;bersicht</a>
+<a href="#" id="hlpsource">Datenquellen</a>
+<a href="#" id="hlpevents">Events Erfassen und Bearbeiten</a>
+<a href="#" id="hlpnotes">Veranstaltungshinweise Erstellen und Bearbeiten</a>
+<a href="#" id="hlpbasics">Stammdaten Bearbeiten</a>
+<a href="#" id="hlpuser">Benutzerdaten Bearbeiten</a>
+</div>
+<p class="menu_head">Events - Extern</p>
+<div class="menu_body">
+<a href="custom url 1" target="_blank">Veranstaltungen Rudolstadt</a>
+<a href="http://www.saalfeld.de/www/saalfeld/topnav/veranstaltungen/" target="_blank">custom url 1</a>
+<a href="custom url 1" target="_blank">custom url 2</a>
+
+</div>
+</div>
+</div><!--menu_list-->
+</div> <!--column_left-->
+<div class="column_right">
+<div class="head_item_right" id="evhead"></div>
+<iframe id="contentframe"></iframe>
+</div><!--column_right-->
+</div><!--main-->
+<!--to specified paths:
+local/script/navigation.js
+local/help/script/navigation.js
+-->
+<script type="text/javascript" src="http://myserver/admin_srb_events/local/script/navigation.js"></script>
+<script type="text/javascript" src="http://myserver/admin_srb_events/local/help/script/navigation.js"></script>
+</body>
+</html>
