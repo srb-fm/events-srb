@@ -21,6 +21,7 @@ _db_config.py
 mpd_config.py
 *conf.sh
 db.php
+index.php
 
 # with paths or special configs
 
